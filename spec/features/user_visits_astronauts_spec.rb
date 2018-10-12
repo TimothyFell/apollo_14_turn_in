@@ -15,7 +15,7 @@ describe 'As a visitor' do
       @astro_3 = @mission_1.astronauts.create(name: 'Jeff Strongarm', age: 28, job: 'Pilot')
 
 
-      @mission_2 = Mission.create(title:'Apollo 14', time_in_space: 120)
+      @mission_2 = Mission.create(title:'Gemini 2', time_in_space: 120)
 
       @astro_4 = @mission_2.astronauts.create(name: 'Sherry Longstride', age: 42, job: 'Engineer')
 
@@ -23,7 +23,7 @@ describe 'As a visitor' do
 
       @astro_6 = @mission_2.astronauts.create(name: 'Nelix', age: 38, job: 'Moral Officer')
 
-      @mission_3 = Mission.create(title:'Apollo 14', time_in_space: 120)
+      @mission_3 = Mission.create(title:'Charger 1', time_in_space: 120)
 
       @mission_3.astronauts << @astro_1
       @mission_3.astronauts << @astro_2
@@ -31,7 +31,7 @@ describe 'As a visitor' do
       @mission_3.astronauts << @astro_4
       @mission_3.astronauts << @astro_5
 
-      @mission_4 = Mission.create(title:'Apollo 14', time_in_space: 120)
+      @mission_4 = Mission.create(title:'Challenger 8', time_in_space: 120)
 
       @mission_4.astronauts << @astro_1
       @mission_4.astronauts << @astro_2
